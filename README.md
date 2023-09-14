@@ -1,4 +1,4 @@
-# *signal-ml*
+## Train with *signal-ml*
 
 #### Optimized transformers for signal processing
 
