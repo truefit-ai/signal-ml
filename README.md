@@ -1,9 +1,5 @@
 ## *signal-ml*
 
-If it has a time dimension, we have an architecture. 
-
-&nbsp;
-
 ### What is signal-ml: 
 #### Optimized transformers for signal processing
 
