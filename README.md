@@ -1,6 +1,8 @@
 ## *signal-ml*
 
-If it has a time dimension-use signal-ml
+If it has a time dimension, we have an architecure for that. 
+
+&nbsp;
 
 ### What is signal-ml: 
 #### Optimized transformers for signal processing
@@ -43,6 +45,8 @@ sml.SigModel(
  - out_channels: 1 - ∞ or None [default: None]
  - out_act: None, sigmoid, tanh, softmax [default: None]
 
+&nbsp;
+
 #### Power Parameters
  - depth: 0 - ∞ [default: 3]
  - encoder_dim: 64 - ∞ [default: 256]
@@ -50,7 +54,7 @@ sml.SigModel(
  - num_heads: 1 - ∞ [default: 4]
  - act_layer: gelu, celu, silu, prelu [default: gelu]
 
-#### Regularization Parameters
+#### Regularization 
  - drop_rate: 0 - 1 [default: 0.2]
  - proj_drop_rate: 0 - 1 [default: 0.1]
  - attn_drop_rate: 0 - 1 [default: 0.1]
