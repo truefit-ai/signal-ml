@@ -28,7 +28,7 @@ sml.SigModel(
 
 Not necessarily the *best* package——<br>
 &nbsp;&nbsp;&nbsp;&nbsp;but it is the **only** package<br>
-(for transformer-based signal machine learning)
+(for transformer-based signal modeling)
 
 &nbsp;
 
