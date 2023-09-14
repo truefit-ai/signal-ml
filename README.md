@@ -42,7 +42,7 @@ for transformer-based signal machine learning
 
 &nbsp;
 
-## Parameters
+## Parameters:
 
 #### Key Parameters
  - encoder: vt, vt-relpos, vt-alibi, deberta, None [default: vt-relpos]
