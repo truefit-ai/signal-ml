@@ -2,7 +2,7 @@
 
 #### Optimized transformers for signal processing
 
-*(not necessarily the best package, just the **only** package)
+*(not necessarily the best package, it's the **only** package for transformer-based signal processing)
 
 &nbsp;
 
