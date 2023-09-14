@@ -87,6 +87,16 @@ sml.SigModel(
 
 &nbsp;
 
+### Class Outputs
+
+ - pred: overall prediction 
+ - pred_patch: patch prediction
+ - pred_point: point prediction
+ - loss: overall loss
+
+*(automatic inference for all variations)
+
+&nbsp;
 
 ## Classification:
 
@@ -128,16 +138,5 @@ yp = model(x, target = y)
 print(yp.pred_patch, yp.loss)
 
 ```
-
-&nbsp;
-
-## Class Outputs
-
- - pred: overall prediction 
- - pred_patch: patch prediction
- - pred_point: point prediction
- - loss: overall loss
-
-*(automatic inference for all variations)
 
 
