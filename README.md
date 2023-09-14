@@ -4,7 +4,7 @@
 
 &nbsp;
 
-## Load *sigmal-ml*
+## Load *signal-ml*
 
 ```python
 import signal_ml as sml
