@@ -26,7 +26,7 @@ sml.SigModel(
 
 &nbsp;
 
-***
+---
 
 ### Architectures:
  - Vision Transformer
