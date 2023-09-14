@@ -41,7 +41,7 @@ sml.SigModel(
  - pooling: gru, lstm, gem, avg, cls, None [default: gru]
  - patch: 1 - ∞ [default: 4]
 
-*(ideally gru/gem pooling, patch ~= seqlen // 384)*
+*(ideally gru/gem; patch ~= seqlen // 384)*
 
 &nbsp;
 
@@ -50,7 +50,7 @@ sml.SigModel(
  - out_channels: 1 - ∞ or None [default: None]
  - out_act: None, sigmoid, tanh, softmax [default: None]
 
-*(matches your dataset)*
+*(match your dataset!)*
 
 &nbsp;
 
@@ -78,7 +78,60 @@ sml.SigModel(
 
 ### Automatic Loss Functions
  - loss: mse, ce, None [default: None]
+ - smooth: 0 - 1 [default: 3e-4]
  - ae_loss: 0 - 1 [default: 0.03]
 
+*(matches your objective)
+
+&nbsp;
+
+
+## Classification:
+
+```python
+import signal_ml as sml
+
+model = sml.SigModel(
+    encoder = 'vt-relpos',
+    pooling = 'gru',
+    in_channels = 3,
+    out_channels = 20
+    out_act = 'softmax'
+    loss = 'ce'
+)
+
+x = torch.randn(8, 1024, 3)
+y = torch.randint(0, 20, (8, ))
+yp = model(x, target = y)
+print(yp.pred, yp.loss)
+
+```
+
+## Regression 
+
+```python
+model = sml.SigModel(
+    pooling = None,
+    patch = 18,
+    in_channels = 4,
+    out_channels = 1, 
+    loss = 'mse',
+)
+
+x = torch.randn(4, 3600, 4)
+y = torch.randn(4, 200, 1)
+yp = model(x, target = y)
+print(yp.pred_patch, yp.loss)
+
+```
+
+## Class Outputs
+
+ - pred: overall prediction 
+ - pred_patch: patch prediction
+ - pred_point: point prediction
+ - loss: overall loss
+
+*(automatic inference for all variations)
 
 
