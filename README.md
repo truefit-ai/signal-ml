@@ -1,9 +1,9 @@
 ## *signal-ml*
 
-If it has a time dimension--we have an architecture for that.
+If it has a time dimension-use signal-ml
 
 ### What is signal-ml: 
-#### Optimized transformes for signal processing
+#### Optimized transformers for signal processing
 
 ## Load *sigmal-ml*
 
@@ -23,7 +23,7 @@ sml.SigModel(
  - Automatic patching + pooling
  - Popular metrics and losses
 
-
+&nbsp;
 
 ### Architectures:
  - Vision Transformer
