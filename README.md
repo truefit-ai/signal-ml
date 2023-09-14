@@ -36,6 +36,8 @@ sml.SigModel(
 
 &nbsp;
 
+## Parameters
+
 #### Key Parameters
  - encoder: vt, vt-relpos, vt-alibi, deberta, None [default: vt-relpos]
  - pooling: gru, lstm, gem, avg, cls, None [default: gru]
