@@ -26,6 +26,8 @@ sml.SigModel(
 
 &nbsp;
 
+***
+
 ### Architectures:
  - Vision Transformer
  - Vision Transformer (Relative Position)
