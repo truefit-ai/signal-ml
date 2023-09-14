@@ -30,7 +30,7 @@ sml.SigModel(
  - Vision Transformer
  - Vision Transformer (Relative Position)
  - Vision Transformer (Alibi)
- - Disentangled Self-Attention (aka 'deberta)
+ - Disentangled Self-Attention (aka 'deberta')
 
 &nbsp;
 
@@ -63,11 +63,12 @@ sml.SigModel(
  - attn_drop_rate: 0 - 1 [default: 0.1]
  - drop_path_rate: 0 - 1 [default: 0.0]
  - init_values: 0 - 1 [default: 0.15]
- - ae_loss: 0 - 1 [default: 0.03]
 
 &nbsp;
 
 ### Automatic Loss Functions
  - loss: mse, ce, None [default: None]
+ - ae_loss: 0 - 1 [default: 0.03]
+
 
 
