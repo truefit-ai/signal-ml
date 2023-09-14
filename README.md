@@ -23,6 +23,7 @@ sml.SigModel(
  - Optimized hyperparameters
  - Automatic patching + pooling
  - Popular metrics and losses
+
 &nbsp;
 
 Not necessarily the *best* package——<br>
