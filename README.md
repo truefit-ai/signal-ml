@@ -2,10 +2,14 @@
 
 If it has a time dimension--we have an architecture for that.
 
-```
+```python
 import signal_ml as sml
 
-sml.SigModel(encoder_type = 'vt-relpos', pooling = 'gru', in_channels = 1, )
+sml.SigModel(
+            encoder_type = 'vt-relpos',
+            pooling = 'gru',
+            in_channels = 1,
+)
 ```
 
 
