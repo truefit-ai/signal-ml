@@ -139,6 +139,8 @@ print(yp.pred_patch, yp.loss)
 
 ```
 
+&nbsp;
+
 ## Modules
 
 Full PyTorch Lightning Modules—–with optimizer, loss function, metrics, and more 
