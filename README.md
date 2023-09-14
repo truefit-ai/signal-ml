@@ -1,12 +1,10 @@
 ## *signal-ml*
 
-If it has a time dimension, we have an architecure for that. 
-
+If it has a time dimension, we have an architecure. 
 &nbsp;
 
 ### What is signal-ml: 
 #### Optimized transformers for signal processing
-
 &nbsp;
 
 ## Load *sigmal-ml*
