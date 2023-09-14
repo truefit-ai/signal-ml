@@ -129,6 +129,8 @@ print(yp.pred_patch, yp.loss)
 
 ```
 
+&nbsp;
+
 ## Class Outputs
 
  - pred: overall prediction 
