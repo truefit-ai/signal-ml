@@ -61,7 +61,7 @@ sml.SigModel(
  - num_heads: 1 - ∞ [default: 4]
  - act_layer: gelu, celu, silu, prelu [default: gelu]
 
-*(dim=384 is slightly better; usually depth 2-5)
+*(dim=384 is slightly better; usually depth 2-5)*
 
 &nbsp;
 
