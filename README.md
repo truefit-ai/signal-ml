@@ -2,6 +2,8 @@
 
 #### Optimized transformers for signal processing
 
+*(not necessarily the best package, just the **only** package)
+
 &nbsp;
 
 ## Load *signal-ml*
