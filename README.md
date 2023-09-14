@@ -24,6 +24,10 @@ sml.SigModel(
  - Automatic patching + pooling
  - Popular metrics and losses
 
+Not necessarily the *best* package——
+  but it *is* the **only** package
+for transformer-based signal machine learning
+
 &nbsp;
 
 ## Architectures:
