@@ -25,7 +25,7 @@ sml.SigModel(
  - Popular metrics and losses
 
 Not necessarily the *best* package——<br>
-  but it is the **only** package<br>
+ &nbsp; &nsbp; but it is the **only** package<br>
 for transformer-based signal machine learning
 
 &nbsp;
