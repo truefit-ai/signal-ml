@@ -1,6 +1,11 @@
-## Signal Processing w/   *signal-ml*
+## *signal-ml*
 
 If it has a time dimension--we have an architecture for that.
+
+### What is signal-ml: 
+#### Optimized transformes for signal processing
+
+## Load *sigmal-ml*
 
 ```python
 import signal_ml as sml
