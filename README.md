@@ -1,6 +1,5 @@
 ## *signal-ml*
 
-### What is signal-ml: 
 #### Optimized transformers for signal processing
 
 &nbsp;
