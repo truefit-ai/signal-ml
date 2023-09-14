@@ -12,7 +12,7 @@ sml.SigModel(
 )
 ```
 
-Why Signal-ML?
+## Why Signal-ML?
  - Optimized architectures
  - Optimized hyperparameters
  - Automatic patching + pooling
@@ -20,7 +20,7 @@ Why Signal-ML?
 
 
 
-Architectures:
+### Architectures:
  - Vision Transformer
  - Vision Transformer (Relative Position)
  - Vision Transformer (Alibi)
@@ -53,10 +53,5 @@ Architectures:
 
 ### Automatic Loss Functions
  - loss: mse, ce, None [default: None]
-
-
-
-
-            
 
 
