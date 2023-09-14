@@ -109,6 +109,8 @@ print(yp.pred, yp.loss)
 
 ```
 
+&nbsp;
+
 ## Regression 
 
 ```python
