@@ -1,4 +1,4 @@
-## Signal Processing--*signal-ml*
+## *signal-ml*
 
 #### Optimized transformers for signal processing
 
