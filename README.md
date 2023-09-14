@@ -1,4 +1,4 @@
-## Signal Processing
+## Signal Processing, *signal-ml*
 
 If it has a time dimension--we have an architecture for that.
 
