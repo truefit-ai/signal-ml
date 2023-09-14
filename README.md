@@ -139,4 +139,54 @@ print(yp.pred_patch, yp.loss)
 
 ```
 
+## Modules
+
+Full PyTorch Lightning Modules—–with optimizer, loss function, metrics, and more 
+
+```python
+import signal_ml as sml
+
+module = sml.SigModule(
+    loss = 'ce',
+    final_act = 'softmax',
+    optimizer = 'adamw',
+    lr = 3e-5,
+    schedule = 'lincos',
+    n_epochs = 20,
+)
+
+module.fit(train_loader, test_loader)
+
+```
+
+##### Module Parameters:
+ - optimizer: adamw, lion [default: adamw]
+ - lr: 0 - 1 [default: 3e-5]
+ - wd: 0 - 1 [default: 0.01]
+ - schedule: lincos, func [default: lincos]
+ - head_mult: 1 - ∞ [default: 10]
+ - n_epochs: 1 - ∞ [default: 10]
+
+*(tune the learning rate! sometimes tune head_mult or try lion)*
+
+&nbsp;
+
+### Module Features
+ - automatic mixed precision 
+ - automatic accelerator 
+ - automatic scheduler 
+ - automatic metrics 
+ - and more...
+
+***
+
+Sample Datasets:
+
+
+
+
+
+
+
+
 
